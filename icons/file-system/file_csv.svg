@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 100 100">
+	<defs>
+		<linearGradient id="bannerFlap" x1="0%" y1="0%" x2="0%" y2="60%">
+			<stop offset="0%" style="stop-color:#515151;stop-opacity:1" />
+			<stop offset="100%" style="stop-color:#7C7C7C;stop-opacity:1" />
+		</linearGradient>
+	</defs>
+
+	<polygon points="80,75 88,75 80,82" style="fill: url(#bannerFlap);" />
+	<polygon points="20,25 35,10 80,10 80,90 20,90" style="stroke:black; stroke-width:2; fill: white; stroke-linejoin: round" />
+	
+	<g style="stroke: black; stroke-width: 0.5;">
+		<line x1="30" y1="20" x2="70" y2="20" />
+		<line x1="30" y1="24" x2="70" y2="24" />
+		<line x1="30" y1="28" x2="70" y2="28" />
+		<line x1="30" y1="32" x2="70" y2="32" />
+		<line x1="30" y1="36" x2="70" y2="36" />
+		<line x1="30" y1="40" x2="70" y2="40" />
+		<line x1="30" y1="44" x2="70" y2="44" />
+		<line x1="30" y1="48" x2="70" y2="48" />
+		<line x1="30" y1="52" x2="70" y2="52" />
+		<line x1="30" y1="56" x2="70" y2="56" />
+		<line x1="30" y1="60" x2="70" y2="60" />
+		<line x1="30" y1="64" x2="70" y2="64" />
+		<line x1="30" y1="68" x2="70" y2="68" />
+		
+		<line x1="30" y1="20" x2="30" y2="68" />
+		<line x1="43.3" y1="20" x2="43.3" y2="68" />
+		<line x1="56.6" y1="20" x2="56.6" y2="68" />
+		<line x1="70" y1="20" x2="70" y2="68" />	
+	</g>
+	
+	<polygon points="20,25 35,10 35,25" style="stroke:black; stroke-width:2; fill: white; stroke-linejoin: round" />
+	<polygon points="34,52 88,52 88,75 34,75" style="fill: #7C7C7C;" />
+	<text x="61" y="70" text-anchor="middle" letter-spacing="1.2" font-size="22" fill="white" style="font-weight: 600; font-family: Calibri, Helvetica, Sans-Serif">CSV</text>
+</svg>

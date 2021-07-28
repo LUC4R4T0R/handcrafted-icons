@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 100 100">
+	<defs>
+		<linearGradient id="bannerFlap" x1="0%" y1="0%" x2="0%" y2="60%">
+			<stop offset="0%" style="stop-color:#0C2D67;stop-opacity:1" />
+			<stop offset="100%" style="stop-color:#134DB2;stop-opacity:1" />
+		</linearGradient>
+	</defs>
+
+	<polygon points="80,75 88,75 80,82" style="fill: url(#bannerFlap);" />
+	<polygon points="20,25 35,10 80,10 80,90 20,90" style="stroke:black; stroke-width:2; fill: white; stroke-linejoin: round" />
+	
+	<g style="stroke: black; stroke-width: 1.2;">
+		<line x1="30" y1="20" x2="70" y2="20" />
+		<line x1="30" y1="25" x2="70" y2="25" />
+		<line x1="30" y1="30" x2="70" y2="30" />
+		<line x1="30" y1="35" x2="70" y2="35" />
+		<line x1="30" y1="40" x2="70" y2="40" />
+		<line x1="30" y1="45" x2="70" y2="45" />
+		<line x1="30" y1="50" x2="70" y2="50" />
+		<line x1="30" y1="55" x2="70" y2="55" />
+		<line x1="30" y1="60" x2="70" y2="60" />
+		<line x1="30" y1="65" x2="70" y2="65" />
+		<line x1="30" y1="70" x2="70" y2="70" />
+	</g>
+	
+	<polygon points="20,25 35,10 35,25" style="stroke:black; stroke-width:2; fill: white; stroke-linejoin: round" />
+	<polygon points="34,52 88,52 88,75 34,75" style="fill: #134DB2;" />
+	<text x="61" y="70" text-anchor="middle" letter-spacing="0.2" font-size="22" fill="white" style="font-weight: 600; font-family: Calibri, Helvetica, Sans-Serif">ODT</text>
+</svg>
